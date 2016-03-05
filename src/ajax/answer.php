@@ -1,6 +1,6 @@
 <?php
-$q = H::input("question_id");
-$answer = H::input("answer");
+$q = H::i("question_id");
+$answer = H::i("answer");
 
 if($q != null && $answer != null){
   $questions = json_decode($this->get("/src/data/questions.json"), true);
