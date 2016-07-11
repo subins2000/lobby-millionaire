@@ -5,9 +5,9 @@
   "description" : "Who Wants To Be A Millionaire is a popular game show where the participant is asked 15 questions for which she/he receives money as prize. This app is a game and you DON'T ACTUALLY GET ANY MONEY.",
   "category" : "games",
   "sub_category" : "puzzles",
-  "version" : "0.2",
+  "version" : "0.3",
   "require": {
-    "lobby": ">=0.5"
+    "lobby": ">=0.8"
   },
   "logo" : "true",
   "author" : "Subin",

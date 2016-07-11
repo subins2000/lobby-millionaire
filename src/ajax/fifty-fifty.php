@@ -1,5 +1,5 @@
 <?php
-$q = Helper::i("question_id");
+$q = Request::get("question_id");
 
 if($q != null){
   $questions = json_decode($this->get("/src/data/questions.json"), true);
